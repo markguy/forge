@@ -6,6 +6,6 @@ package com.zm.research.inf.adapter;
 public class Adaptee {
 
     public void opt1(){
-        System.out.println("Adaptee opt1");
+        System.out.println(this.getClass().getSimpleName() + "  opt");
     }
 }

@@ -6,8 +6,12 @@ package com.zm.research.inf.adapter;
 public class MainTest {
 
     public static void main(String[] strings){
-        TargetInterface target = new Adapter();
+        TargetInterface target = new ClassAdapter();
         target.opt1();
         target.opt2();
+
+//        TargetInterface target2 = new ObjectAdapter(new Adaptee());
+//        target2.opt1();
+//        target2.opt2();
     }
 }
